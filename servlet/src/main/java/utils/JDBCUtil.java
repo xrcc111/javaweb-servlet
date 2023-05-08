@@ -9,7 +9,7 @@ import java.sql.*;
  */
 public class JDBCUtil {
     private static String driverName = "com.mysql.cj.jdbc.Driver";
-    private static String url = "jdbc:mysql://localhost:3306/servlet_test?serverTimezone=UTC";
+    private static String url = "jdbc:mysql://localhost:3306/servlet_test?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC";
     private static String user = "root";
     private static String password = "root";
 

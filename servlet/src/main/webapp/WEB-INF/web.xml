@@ -7,13 +7,13 @@
 
   <servlet>
     <!--servlet的内部名称-->
-    <servlet-name>oneServlet</servlet-name>
+    <servlet-name>users</servlet-name>
     <!--servlet的类全名： 包名+简单类名 -->
-    <servlet-class>com.xrblogs.OneServlet</servlet-class>
+    <servlet-class>com.xr.control.UsersLogin</servlet-class>
   </servlet>
   <servlet-mapping>
     <!--servlet的映射内部名称，通过他可以找到上面的servlet的内部名称-->
-    <servlet-name>oneServlet</servlet-name>
+    <servlet-name>users</servlet-name>
     <!--请求servlet的映射路径-->
     <url-pattern>/login</url-pattern>
   </servlet-mapping>
