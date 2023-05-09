@@ -5,18 +5,21 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
           http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
 
-  <servlet>
-    <!--servlet的内部名称-->
-    <servlet-name>oneServlet</servlet-name>
-    <!--servlet的类全名： 包名+简单类名 -->
-    <servlet-class>com.xrblogs.OneServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <!--servlet的映射内部名称，通过他可以找到上面的servlet的内部名称-->
-    <servlet-name>oneServlet</servlet-name>
-    <!--请求servlet的映射路径-->
-    <url-pattern>/login</url-pattern>
-  </servlet-mapping>
+<!--  <servlet>-->
+<!--    &lt;!&ndash;servlet的内部名称&ndash;&gt;-->
+<!--    <servlet-name>users</servlet-name>-->
+<!--    &lt;!&ndash;servlet的类全名： 包名+简单类名 &ndash;&gt;-->
+<!--    <servlet-class>com.xr.control.UsersLogin</servlet-class>-->
+<!--  </servlet>-->
+<!--  <servlet-mapping>-->
+<!--    &lt;!&ndash;servlet的映射内部名称，通过他可以找到上面的servlet的内部名称&ndash;&gt;-->
+<!--    <servlet-name>users</servlet-name>-->
+<!--    &lt;!&ndash;请求servlet的映射路径&ndash;&gt;-->
+<!--    <url-pattern>/login</url-pattern>-->
+<!--  </servlet-mapping>-->
+    <welcome-file-list>
+        <welcome-file>login.jsp</welcome-file>
+    </welcome-file-list>
 
 </web-app>
 
